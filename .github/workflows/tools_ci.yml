@@ -1,0 +1,41 @@
+name: Kernel - Rebase
+
+# Credits to:
+# https://github.com/TeamWin
+# https://gitlab.com/OrangeFox
+# https://github.com/azwhikaru for Recovery Builder Template
+# And all Contributors in every repositories I used
+
+on:
+  workflow_dispatch:
+    inputs:
+      zip:
+        description: 'kernel tree'
+        required: true
+        default: 'https://gitlab.com/UdyneOS/oem_rmx2195/-/archive/main/oem_rmx2195-main.zip'
+      br:
+        description: 'path.'
+        required: true
+        default: 'RMX2195'
+jobs:
+  build:
+    name: rebase ${{ github.actor }}
+    runs-on: ubuntu-latest
+    steps:
+    - name: Checkout
+      uses: actions/checkout@v3
+      
+    - name: Set-up 
+      run: |
+        mkdir -p ${GITHUB_WORKSPACE}/work
+        cd ${GITHUB_WORKSPACE}/work
+        git clone https://github.com/UdyneO2/android_tools.git android
+        cd ${GITHUB_WORKSPACE}/work/android
+        chmod +x setup.sh
+        sudo bash setup.sh
+    - name: running
+      run: |
+        cd ${GITHUB_WORKSPACE}/work/android
+        ./tools/rebase_kernel.sh ${{ github.event.inputs.zip }} ${{ github.event.inputs.br }} 
+        
+ 
