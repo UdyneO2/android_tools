@@ -33,6 +33,8 @@ jobs:
         cd ${GITHUB_WORKSPACE}/work/android
         chmod +x setup.sh
         sudo bash setup.sh
+        export GIT_TOKEN=${{  secrets.GIT_TOKEN  }}
+        export GITHUB_USER=${{ github.actor }}
     - name: running
       run: |
         cd ${GITHUB_WORKSPACE}/work/android
