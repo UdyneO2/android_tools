@@ -1,8 +1,8 @@
+.dl
 dumps/
 dummy_dt/
 input/
 kernels/
-working/
 vendor/
 tools/android_boot_image_editor/
 tools/extract-dtb/

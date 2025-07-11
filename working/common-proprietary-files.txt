@@ -1,0 +1,210 @@
+
+# ADSP-Modules
+vendor/lib/rfsa/adsp/libsns_device_mode_skel.so
+vendor/lib/rfsa/adsp/libsns_low_lat_stream_skel.so
+
+# Alarm
+vendor/etc/init/vendor.qti.hardware.alarm@1.0-service.rc
+
+# Audio
+
+# Bluetooth
+vendor/etc/init/android.hardware.bluetooth@1.0-service-qti.rc
+
+# CDSP
+vendor/etc/init/vendor.qti.cdsprpc-service.rc
+vendor/lib/libsysmon_cdsp_skel.so
+
+# CNE
+vendor/etc/cne/mwqem.conf
+vendor/etc/cne/profileMwqem.xml
+vendor/etc/cne/wqeclient/ATT/ATT_profile1.xml
+vendor/etc/cne/wqeclient/ATT/ATT_profile2.xml
+vendor/etc/cne/wqeclient/ATT/ATT_profile3.xml
+vendor/etc/cne/wqeclient/ATT/ATT_profile4.xml
+vendor/etc/cne/wqeclient/ATT/ATT_profile5.xml
+vendor/etc/cne/wqeclient/ATT/ATT_profile6.xml
+vendor/etc/cne/wqeclient/ROW/ROW_profile1.xml
+vendor/etc/cne/wqeclient/ROW/ROW_profile15.xml
+vendor/etc/cne/wqeclient/ROW/ROW_profile16.xml
+vendor/etc/cne/wqeclient/ROW/ROW_profile17.xml
+vendor/etc/cne/wqeclient/ROW/ROW_profile18.xml
+vendor/etc/cne/wqeclient/ROW/ROW_profile19.xml
+vendor/etc/cne/wqeclient/ROW/ROW_profile2.xml
+vendor/etc/cne/wqeclient/ROW/ROW_profile20.xml
+vendor/etc/cne/wqeclient/ROW/ROW_profile21.xml
+vendor/etc/cne/wqeclient/ROW/ROW_profile3.xml
+vendor/etc/cne/wqeclient/ROW/ROW_profile32.xml
+vendor/etc/cne/wqeclient/ROW/ROW_profile4.xml
+vendor/etc/cne/wqeclient/ROW/ROW_profile5.xml
+vendor/etc/cne/wqeclient/ROW/ROW_profile6.xml
+vendor/etc/cne/wqeclient/ROW/ROW_profile7.xml
+vendor/etc/cne/wqeclient/VZW/VZW_profile1.xml
+vendor/etc/cne/wqeclient/VZW/VZW_profile2.xml
+vendor/etc/cne/wqeclient/VZW/VZW_profile3.xml
+vendor/etc/cne/wqeclient/VZW/VZW_profile4.xml
+vendor/etc/cne/wqeclient/VZW/VZW_profile5.xml
+vendor/etc/cne/wqeclient/VZW/VZW_profile6.xml
+
+# Camera
+vendor/lib/libcapiv2svacnn.so
+vendor/lib/libcapiv2vop.so
+
+# Configstore
+vendor/etc/init/vendor.qti.hardware.capabilityconfigstore@1.0-service.rc
+
+# DPM
+-framework/tcmclient.jar
+
+# DRM
+
+# DRM-Hardware
+vendor/etc/init/android.hardware.drm@1.1-service.wfdhdcp.rc
+vendor/etc/init/android.hardware.drm@1.3-service.clearkey.rc
+-vendor/etc/vintf/manifest/manifest_android.hardware.drm@1.3-service.clearkey.xml
+-vendor/etc/vintf/manifest/manifest_android.hardware.drm@1.3-service.widevine.xml
+
+# Display-Hardware
+vendor/etc/init/android.hardware.memtrack@1.0-service.rc
+vendor/etc/init/vendor.qti.hardware.display.allocator-service.rc
+-vendor/etc/vintf/manifest/android.hardware.graphics.mapper-impl-qti-display.xml
+-vendor/etc/vintf/manifest/vendor.qti.hardware.display.allocator-service.xml
+
+# Firmware
+vendor/firmware/a610_zap.b00
+vendor/firmware/a610_zap.b02
+
+# GPS
+vendor/etc/cacert_location.pem
+vendor/etc/init/android.hardware.gnss@2.1-service-qti.rc
+-vendor/etc/vintf/manifest/android.hardware.gnss@2.1-service-qti.xml
+-vendor/etc/vintf/manifest/vendor.qti.gnss@4.0-service.xml
+vendor/etc/xtra_root_cert.pem
+
+# GPS-Hardware
+
+# Gatekeeper
+vendor/etc/init/android.hardware.gatekeeper@1.0-service-qti.rc
+
+# Graphics
+vendor/lib/egl/libGLESv1_CM_adreno.so
+vendor/lib/egl/libq3dtools_adreno.so
+vendor/lib/libC2D2.so
+vendor/lib/libc2d30_bltlib.so
+vendor/lib64/egl/libGLESv1_CM_adreno.so
+vendor/lib64/egl/libq3dtools_adreno.so
+vendor/lib64/libC2D2.so
+vendor/lib64/libc2d30_bltlib.so
+
+# IPA-Firmware
+vendor/firmware/ipa_fws.b00
+vendor/firmware/ipa_fws.b02
+vendor/firmware/ipa_fws.b03
+vendor/firmware/ipa_fws.b04
+
+# Keymaster
+vendor/etc/init/android.hardware.keymaster@4.0-service-qti.rc
+
+# Listen
+vendor/lib/libadpcmdec.so
+vendor/lib/libgcs-osal.so
+
+# Media
+vendor/lib/libAlacSwDec.so
+vendor/lib/libApeSwDec.so
+vendor/lib/libdsd2pcm.so
+vendor/lib/libFlacSwDec.so
+vendor/lib/libOmxAlacDecSw.so
+vendor/lib/libOmxApeDecSw.so
+vendor/lib/libOmxDsdDec.so
+
+# Media-Hardware
+
+# Perf
+vendor/etc/init/vendor.qti.hardware.perf@2.2-service.rc
+
+# Postprocessing
+vendor/etc/init/vendor.display.color@1.0-service.rc
+
+# QMI
+
+# Radio
+vendor/radio/qcril_database/upgrade/0_initial.sql
+vendor/radio/qcril_database/upgrade/1_version_intro.sql
+vendor/radio/qcril_database/upgrade/2_version_add_wps_config.sql
+vendor/radio/qcril_database/upgrade/3_version_update_wps_config.sql
+vendor/radio/qcril_database/upgrade/4_version_update_ecc_table.sql
+vendor/radio/qcril_database/upgrade/5_version_update_ecc_table.sql
+
+# Sensor-configs
+vendor/etc/sensors/config/sns_aont.json
+vendor/etc/sensors/config/sns_heart_rate.json
+vendor/etc/sensors/config/sns_mag_cal_legacy.json
+
+# Sensors
+
+# Soter
+vendor/etc/init/vendor.qti.hardware.soter@1.0-service.rc
+
+# TUI
+vendor/etc/init/vendor.qti.hardware.tui_comm@1.0-service-qti.rc
+
+# Thermal
+vendor/etc/thermal-engine.conf
+
+# Time
+
+# Vibrator
+vendor/etc/init/vendor.qti.hardware.vibrator.service.rc
+-vendor/etc/vintf/manifest/vendor.qti.hardware.vibrator.service.xml
+
+# WFD
+-framework/WfdCommon.jar
+vendor/bin/wifidisplayhalservice
+vendor/etc/init/com.qualcomm.qti.wifidisplayhal@1.0-service.rc
+vendor/etc/seccomp_policy/wifidisplayhalservice.policy
+vendor/lib/libmiracast.so
+vendor/lib/libwfdcommonutils_proprietary.so
+vendor/lib/libwfdmminterface_proprietary.so
+vendor/lib/libwfdrtsp_proprietary.so
+vendor/lib/libwfdsourcesession_proprietary.so
+vendor/lib/libwfdsourcesm_proprietary.so
+vendor/lib/libwfduibcinterface_proprietary.so
+vendor/lib/libwfduibcsinkinterface_proprietary.so
+vendor/lib/libwfduibcsink_proprietary.so
+vendor/lib/libwfduibcsrcinterface_proprietary.so
+vendor/lib/libwfduibcsrc_proprietary.so
+vendor/lib/vendor.qti.hardware.sigma_miracast@1.0.so
+vendor/lib/vendor.qti.hardware.wifidisplaysession@1.0.so
+vendor/lib/vendor.qti.hardware.wifidisplaysessionl@1.0-halimpl.so
+
+# WiFi
+vendor/etc/init/android.hardware.wifi@1.0-service.rc
+-vendor/etc/vintf/manifest/android.hardware.wifi@1.0-service.xml
+
+# Misc
+vendor/bin/wfdhdcphalservice
+vendor/bin/wfdvndservice
+vendor/etc/charger_fstab.qti
+vendor/etc/gnss_antenna_info.conf
+vendor/etc/gpfspath_oem_config.xml
+vendor/etc/init.qti.fm.sh
+vendor/etc/init/boringssl_self_test.rc
+vendor/etc/init/dataadpl.rc
+vendor/etc/init/dataqti.rc
+vendor/etc/init/imsdatadaemon.rc
+vendor/etc/init/imsqmidaemon.rc
+vendor/etc/init/imsrcsd.rc
+vendor/etc/init/init-qcril-data.rc
+vendor/etc/init/init.time_daemon.rc
+vendor/etc/init/port-bridge.rc
+vendor/etc/init/qdcmss.rc
+vendor/etc/init/vendor.qti.hardware.charger_monitor@1.0-service.rc
+vendor/etc/init/vendor.qti.hardware.dsp@1.0-service.rc
+vendor/etc/init/vendor.qti.hardware.servicetracker@1.2-service.rc
+vendor/etc/init/vendor.qti.rmt_storage.rc
+vendor/etc/init/wfdvndservice.rc
+vendor/etc/lm/AdaptLaunchFeature.xml
+vendor/lib/libFileMux_proprietary.so
+vendor/lib/libmmrtpdecoder_proprietary.so
+vendor/lib/libmmrtpencoder_proprietary.so
